@@ -1,5 +1,17 @@
 body{
-    background-color: gray;
+    background: url(http://moziru.com/images/moves-clipart-simon-says-5.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.spacer{
+    padding: 5%;
+}
+
+.spacer2{
+    padding: 5%;
 }
 
 .container{
@@ -27,23 +39,39 @@ body{
 }
 
 .green{
-    background-color: green;
+    background-color: rgb(3, 245, 3);
     border-radius: 300px 0 0 0;
 }
 
+.green-click{
+    background-color: darkgreen;
+}
+
 .red{
-    background-color: red;
+    background-color: rgb(252, 36, 36);
     border-radius: 0 300px 0 0;
 }
 
+.red-click{
+    background-color: darkred;
+}
+
 .yellow{
-    background-color: yellow;
+    background-color: rgb(238, 241, 53);
     border-radius: 0 0 0 300px;
 }
 
+.yellow-click{
+    background-color: darkyellow;
+}
+
 .blue{
-    background-color: blue;
+    background-color: rgb(68, 147, 238);
     border-radius: 0 0 300px 0;
+}
+
+.blue-click{
+    background-color: darkblue;
 }
 
 .controls{
@@ -70,35 +98,33 @@ body{
     vertical-align: middle;
 }
 
-.display{
-    width: 60px;
-    height: 45px;
-    border: solid 2px black;
-    border-radius: 10px;
+#timer{
+    background-color: black;
     color: white;
-    background-color: #342626;
-    font-size: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 30px;
 }
 
-.start-btn, .strict-btn{
-    margin: 0px;
-    margin-left: 20px;
-    text-align: center;
-    width: 55px;
-    height: 55px;
-    border: solid 2px black;
-    border-radius: 30px;
-    color: black;
-    font-size: 22px;
-    line-height: 55px;
-}
-
-.start-btn{
+#start{
     background-color: red;
+    color: white;
+    font-size: 15px;
 }
 
-.strict-btn{
+#strict{
     background-color: yellow;
+    color: black;
+    font-size: 15px;
+}
+
+.outside-switch{
+    width: 60px;
+    height: 30px;
+    background-color: black;
+    border: solid 1px black;
+}
+
+.inside-switch{
+    width: 30px;
+    height: 28px;
+    background-color: gray;
 }

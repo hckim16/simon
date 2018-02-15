@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Tic Tac Toe</title>
+    <title>Simon Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="bower_components/font-awesome/css/font-awesome.min.css" />
@@ -13,22 +13,24 @@
 </head>
 <body>
     <div class="container">
+        <div class="spacer"></div>
         <div class="simonBoard">
             <div id="0" class="pad green"></div>
             <div id="1" class="pad red"></div>
             <div id="2" class="pad yellow"></div>
             <div id="3" class="pad blue"></div>
             <div class="controls">
-                <div class="title">Simon</div>
-                <div class="display inline">00</div>
-                <div class="start-btn inline">Start</div>
-                <div class="strict-btn inline">Strict</div>
+                <div class="title">Simon</div> 
+                <div id="timer" class="btn btn-lg btn-default inline">00</div>
+                <div id="start" class="btn btn-sm btn-default inline">Start</div>
+                <div id="strict" class="btn btn-sm btn-default inline">Strict</div>
+                <div class="spacer2"></div>
                 <div class="switchContainer">
-                    <p class="off">Off</p>
-                    <div class="outer-switch">
-                        <div class="inner-switch"></div>
+                    <p class="off inline">Off</p>
+                    <div class="outside-switch inline">
+                        <div class="inside-switch"></div>
                     </div>
-                    <p class="on">On</p>
+                    <p class="on inline">On</p>
                 </div>
             </div>
         </div>
