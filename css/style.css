@@ -1,0 +1,104 @@
+body{
+    background-color: gray;
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.simonBoard{
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+    border: solid 5px black;
+    margin: 0 auto;
+    border-radius: 600px;
+}
+
+.pad{
+    margin: 0;
+    float: left;
+    position: relative;
+    width: 295px;
+    height: 295px;
+    border: solid 3px black;
+    z-index: 8;
+}
+
+.green{
+    background-color: green;
+    border-radius: 300px 0 0 0;
+}
+
+.red{
+    background-color: red;
+    border-radius: 0 300px 0 0;
+}
+
+.yellow{
+    background-color: yellow;
+    border-radius: 0 0 0 300px;
+}
+
+.blue{
+    background-color: blue;
+    border-radius: 0 0 300px 0;
+}
+
+.controls{
+    width: 245px;
+    height: 245px;
+    margin-left: 170px;
+    margin-top: 170px;
+    background-color: white;
+    border: solid 10px black;
+    border-radius: 150px;
+    position: absolute;
+    z-index: 10;
+}
+
+.title{
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.inline{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.display{
+    width: 60px;
+    height: 45px;
+    border: solid 2px black;
+    border-radius: 10px;
+    color: white;
+    background-color: #342626;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.start-btn, .strict-btn{
+    margin: 0px;
+    margin-left: 20px;
+    text-align: center;
+    width: 55px;
+    height: 55px;
+    border: solid 2px black;
+    border-radius: 30px;
+    color: black;
+    font-size: 22px;
+    line-height: 55px;
+}
+
+.start-btn{
+    background-color: red;
+}
+
+.strict-btn{
+    background-color: yellow;
+}
