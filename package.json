@@ -1,0 +1,22 @@
+{
+  "name": "simon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hckim16/simon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hckim16/simon/issues"
+  },
+  "homepage": "https://github.com/hckim16/simon#readme",
+  "dependencies": {
+    "bower": "^1.8.2"
+  }
+}

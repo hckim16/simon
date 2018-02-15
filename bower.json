@@ -1,0 +1,17 @@
+{
+  "name": "simon",
+  "description": "",
+  "main": "simon.js",
+  "authors": [
+    "Hyo Chang Kim <hck@hyochangkim.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/hckim16/simon",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
