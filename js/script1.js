@@ -36,6 +36,7 @@ $(function(){
         }
         if(userSeq.length == NUM_OF_LEVELS){
             $("#timer").text("Win");
+            location.reload();
         }
     })
 })
