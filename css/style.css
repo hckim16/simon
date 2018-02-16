@@ -39,7 +39,7 @@ body{
 }
 
 .green{
-    background-color: rgb(3, 245, 3);
+    background-color: green;
     border-radius: 300px 0 0 0;
 }
 
@@ -48,7 +48,7 @@ body{
 }
 
 .red{
-    background-color: rgb(252, 36, 36);
+    background-color: red;
     border-radius: 0 300px 0 0;
 }
 
@@ -57,16 +57,16 @@ body{
 }
 
 .yellow{
-    background-color: rgb(238, 241, 53);
+    background-color: yellow;
     border-radius: 0 0 0 300px;
 }
 
 .yellow-click{
-    background-color: darkyellow;
+    background-color: rgb(112, 112, 9);
 }
 
 .blue{
-    background-color: rgb(68, 147, 238);
+    background-color: blue;
     border-radius: 0 0 300px 0;
 }
 
