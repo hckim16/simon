@@ -6,10 +6,10 @@ var id;
 var color;
 var level = 0;
 var boardSound = [
-    "https://www.soundjay.com/button/button-1.mp3",
-    "https://www.soundjay.com/button/button-5.mp3",
-    "https://www.soundjay.com/button/button-10.mp3",
-    "https://www.soundjay.com/button/button-12.mp3" 
+    "https://s3.amazonaws.com/freecodecamp/simonSound1.mp3",
+    "https://s3.amazonaws.com/freecodecamp/simonSound2.mp3",
+    "https://s3.amazonaws.com/freecodecamp/simonSound3.mp3",
+    "https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" 
 ];
 
 
