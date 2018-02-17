@@ -1,7 +1,7 @@
 
    userSeq = [];
    simonSeq = [];
-   const NUM_OF_LEVELS = 2;
+   const NUM_OF_LEVELS = 5;
    var id;
    var color;
    var level = 0;
@@ -11,6 +11,7 @@
      "https://s3.amazonaws.com/freecodecamp/simonSound3.mp3",
      "https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"
    ];
+   var strict = 0;
    
    $(function() {
 
@@ -33,7 +34,11 @@
          level = 0;
          level++;
          simonSequence();
-        })
+       })
+
+       $("#strict").click(function(){
+         strict = 1;
+       })
    
        $("#start").click(function() {
          level++;
@@ -47,8 +52,15 @@
          console.log(id + " " + color);
          addClassSound(id, color);
          if (!checkUserSeq()) {
-           displayError();
-           userSeq = [];
+           if(strict === 1){
+            $("#timer").text("--");
+             userSeq = [];
+             simonSeq = [];
+             level = 0;
+           }else{
+             displayError();
+             userSeq = [];
+           }
          }
          if (userSeq.length == simonSeq.length && userSeq.length < NUM_OF_LEVELS) {
            level++;
