@@ -13,16 +13,27 @@
    ];
    
    $(function() {
+
      $(".switchContainer2").hide();
+     $("#restart").hide();
      $(".inside-switch").click(function() {
        $(".switchContainer").hide();
        $(".switchContainer2").show();
+       $("#restart").show();
        
        $(".outside-switch2").click(function(){
          $(".switchContainer2").hide();
          $(".switchContainer").show();
          location.reload(true);
        })
+
+       $("#restart").click(function(){
+         userSeq = [];
+         simonSeq = [];
+         level = 0;
+         level++;
+         simonSequence();
+        })
    
        $("#start").click(function() {
          level++;
